@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT. Kayla Mas Astari</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Playfair+Display:wght@600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="brand">
+      <img src="logo.png" alt="PT. Kayla Mas Lestari Logo">
+      <h2>PT. Kayla Mas Astari</h2>
+    </div>
+    <div class="nav-links">
+      <a href="#home" id="nav-home" onclick="setActiveNav(this); scrollToSection('home')">HOME</a>
+      <a href="#services" id="nav-services" onclick="setActiveNav(this); scrollToSection('services')">SERVICES</a>
+      <a href="#portofolio" id="nav-portofolio" onclick="setActiveNav(this); scrollToSection('portofolio')">PORTOFOLIO</a>
+      <a href="#halaman" id="nav-halaman" onclick="setActiveNav(this); scrollToSection('halaman')">HALAMAN</a>
+      <a href="#kontak" id="nav-kontak" onclick="setActiveNav(this); scrollToSection('kontak')">KONTAK</a>
+    </div>
+  </div>
+
+  <!-- Section: Home -->
+  <div id="home" class="section">
+    <div class="header-section">
+      <h1>Spesialis Konstruksi Bangunan</h1>
+    </div>
+    <p>Percayakan pembangunan impian Anda kepada PT. Kayla Mas Astari, Spesialis Kontraktor Bangunan terpercaya yang mengutamakan kualitas dan kepuasan klien.
+Kami tidak hanya membangun struktur, tetapi juga membangun kepercayaan melalui layanan profesional, desain yang fungsional, dan hasil akhir yang memuaskan. Dari proyek kecil hingga skala besar, tim kami siap mendampingi Anda mewujudkan bangunan yang kokoh, estetis, dan bernilai investasi jangka panjang.</p>
+    <a href="#services" class="btn" onclick="scrollToSection('services')">MORE INFO</a>
+  </div>
+
+  <!-- Section: Services -->
+  <div id="services" class="section" style="background-color: #1a2e1a;">
+    <h2>Kami Melayani</h2>
+    <p>PT. Kayla Mas Astari menghadirkan solusi konstruksi lengkap sesuai dengan keinginan dan kebutuhan Anda.</p>
+    <div class="services-grid">
+      <div class="service-item">
+        <img src="konstruksi.jpg" class="card-photo">
+        <h3>konstruksi beton</h3>
+        <p>Dari Fondasi hingga Struktur,Kami Ahlinya</p>
+      </div>
+      <div class="service-item">
+        <img src="pembangunan.jpg" class="card-photo">
+        <h3>pembangunan infrastruktur</h3>
+        <p>Kami Hadir untuk Mewujudkan Pembangunan Nyata.</p>
+      </div>
+      <div class="service-item">
+        <img src="design.jpg" class="card-photo">
+        <h3>Desain Arsitektur</h3>
+        <p>Desain Cerdas, Arsitektur Berkualitas.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section: Portofolio -->
+  <div id="portofolio" class="section" style="background-color: #2d2b35;">
+    <h2>Portofolio Kami</h2>
+    <p>Temukan Proyek Sukses yang Telah Kami Wujudkan.</p>
+    <div class="portofolio-grid">
+      <div class="portofolio-item">
+        <img src="private_villa.jpg" class="card-photo">
+        <h3>private villa</h3>
+        <p>Konstruksi villa pribadi dengan standar tinggi untuk gaya hidup yang lebih berkelas.</p>
+      </div>
+      <div class="portofolio-item">
+        <img src="perumahan.jpg" class="card-photo">
+        <h3>BTN SUBSIDI</h3>
+        <p>Sebagai kontraktor terpercaya, kami memahami proses dan standar BTN Subsidi – bangun rumah Anda tanpa ribet. </p>
+      </div>
+      <div class="portofolio-item">
+        <img src="villa.jpg" class="card-photo">
+        <h3>villa lumbung</h3>
+        <p>Desain khas, pengerjaan presisi – Villa Lumbung bukan hanya tempat tinggal, tapi karya arsitektur yang hidup.</p>
+      </div>
+       <div class="portofolio-item">
+        <img src="toya_devasya.jpg" class="card-photo">
+        <h3>Toya Devasya</h3>
+        <p>Sebagai kontraktor bangunan berpengalaman, PT. Kayla Mas Astari dengan bangga mendukung pengembangan kawasan wisata dan relaksasi seperti Toya Devasya.</p>
+      </div>
+      <div class="portofolio-item">
+        <img src="villa_ricefield.jpg" class="card-photo">
+        <h3>Villa Ricefield</h3>
+        <p>Terletak di tengah hamparan sawah yang menenangkan, villa ini dirancang untuk menghadirkan kenyamanan dan kedamaian bagi penghuninya.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- Section: Halaman -->
+  <div id="halaman" class="section">
+    <h2>Alasan Memilih Kami</h2>
+    <div class="halaman-scroll">
+      <div class="halaman-item">
+        <img src="foto1.jpg" class="card-photo">
+        <h3>Personalized Planning</h3>
+        <p>Each project tailored to your vision.</p>
+      </div>
+      <div class="halaman-item">
+        <img src="foto2.jpg" class="card-photo">
+        <h3>Diverse Expertise</h3>
+        <p>From residential to commercial.</p>
+      </div>
+      <div class="halaman-item">
+        <img src="icon3.png" class="card-photo">
+        <h3>Trusted Professionals</h3>
+        <p>Certified engineers & skilled workers.</p>
+      </div>
+      <div class="halaman-item">
+        <img src="foto4.jpg" class="card-photo">
+        <h3>Project Support</h3>
+        <p>Real-time updates and help.</p>
+      </div>
+      <div class="halaman-item">
+        <img src="foto5.jpg" class="card-photo">
+        <h3>Quality Materials</h3>
+        <p>Durable and long-lasting materials.</p>
+      </div>
+      <div class="halaman-item">
+        <img src="icon6.png" class="card-photo">
+        <h3>Best Price Guarantee</h3>
+        <p>Value and quality combined.</p>
+      </div>
+    </div>
+  </div>
+  <!--section : Gallery-->
+  <section class="gallery-section">
+  <h2 class="gallery-title">Galeri Proyek Kami</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="img5.jpg" alt="Project 5" /></div>
+    <div class="gallery-item"><img src="img6.jpg" alt="Project 6" /></div>
+    <div class="gallery-item"><img src="img7.jpg" alt="Project 7" /></div>
+    <div class="gallery-item"><img src="img8.jpg" alt="Project 8" /></div>
+    <div class="gallery-item"><img src="img9.jpg" alt="Project 9" /></div>
+    <div class="gallery-item"><img src="img1.jpg" alt="Project 1" /></div>
+    <div class="gallery-item"><img src="img2.jpg" alt="Project 2" /></div>
+    <div class="gallery-item"><img src="img3.jpg" alt="Project 3" /></div>
+    <div class="gallery-item"><img src="img4.jpg" alt="Project 4" /></div>
+  </div>
+</section>
+
+  <!-- Section: Our Office / Map -->
+  <div class="section">
+    <h2>Kantor Kami</h2>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.632600346213!2d115.024871!3d-8.133576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240b9e2c57cd3%3A0x4bc13b865d0a786b!2sGang%20Kutilang%2C%20Anturan%2C%20Buleleng%2C%20Bali%2081151%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1684155335587!5m2!1sen!2sid&maptype=satellite"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Section: Contact -->
+ <div id="kontak" class="section">
+  <h2>Kontak Kami</h2>
+  <div class="kontak-card">
+    <div class="kontak-image">
+      <img src="logo.png" alt="Foto Direktur PT. Kayla Mas Astari">
+    </div>
+    <div class="kontak-info">
+      <h3>PT. Kayla Mas Astari</h3>
+      <p><strong>Didirikan:</strong> 10 Maret 2025</p>
+      <p><strong>Direktur:</strong> I Kadek Chandra Dwi Putrawan</p>
+      <p>Kami hadir sebagai mitra terpercaya dalam mewujudkan proyek bangunan Anda, dengan komitmen terhadap kualitas dan keandalan terbaik. Silakan hubungi kami untuk konsultasi atau kerja sama lebih lanjut.</p>
+      <p><strong>Email:</strong> dwiputrawan24@icloud.com</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/6287866709844" target="_blank">+62 812-3456-7890</a></p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/kayla.mas.astari.kontraktor" target="_blank">PT Kayla Mas Astari</a></p>
+      <p><strong>Alamat:</strong> BANJAR DINAS CELUKBLUH,Desa/Kelurahan Kalibukbuk,Kec.Buleleng,Kab.Buleleng,Provinsi Bali,Kode Pos:81119</p>
+    </div>
+  </div>
+</div>
+
+  <!-- Script -->
+  <script>
+    function scrollToSection(id) {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function setActiveNav(el) {
+      document.querySelectorAll('.nav-links a').forEach(link => link.classList.remove('active'));
+      el.classList.add('active');
+    }
+  </script>
+  <script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function setActiveNav(element) {
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach(link => link.classList.remove('active'));
+    element.classList.add('active');
+  }
+</script>
+</body>
+</html>
